@@ -21,3 +21,10 @@ df['salario_numerico'] = (
 
 salario = df['salario_numerico']
 print(salario)
+
+# Ya podemos usar la tabla anterior convertida en number para hacer cálculos.
+
+print(df)
+
+media = df['salario_numerico'].mean()
+print(media)
